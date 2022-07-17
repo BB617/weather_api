@@ -3,12 +3,11 @@
 // ↓ ①$cityに東京の都市コード、$appidに自身のAPIKeyを代入しよう
 // =======
 $city = "1850147";
-$appid = "80579f5bb391baa7aec0099cddc0286f";
+$appid = "";
 
 // =======
 // ↓ ②URLからJSON形式で現在の天気情報を取得しよう(①で作った変数を使うこと)
 // =======
-// $url = "http://api.openweathermap.org/data/2.5/weather?id=" . $city . "&exclude=hourly,daily" . "&units=metric&APPID=" . $appid;
 $url = "http://api.openweathermap.org/data/2.5/forecast?id=" . $city . "&units=metric&APPID=" . $appid;
 
 // Webページの内容を読み込む
