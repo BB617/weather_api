@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+h2{
+  padding: 15px 0px;
+  text-align:center;
+}
+.weather {
+  border-radius: 8px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  background: linear-gradient(to bottom right, #04BACC, #68d5e0);
+  width: 580px;
+  font-size: 21px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.today {
+  padding: 20px 40px;
+  display: flex;
+  border-bottom: 1px solid #68d5e0;
+  justify-content: space-between;
+}
+
+.today .weather-icon {
+  font-size: 162px;
+}
+
+.today .weather-detail .temp{
+  font-size: 64px;  
+}
+
+.today .weather-detail {
+  padding: 0 47px;
+}
+
+.clouds_color,.rain_color,.clear_color {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 25%;
+  justify-content: center;
+  border-left:1px solid;
+}
+
+.day {
+  padding: 21px 9px;
+  text-align: center;
+  border-right: 1px solid #68d5e0;
+}
+
+.day:last-child {
+  border-right: 0;
+}
+
+.day .weather-icon {
+  margin: 5px 0;
+  color: #01373d;
+}
+
+.day .temperature {
+  font-size: 16px;
+}
+
+.week_container{
+  display: flex;
+}
+.date{
+  display: flex;
+}
+.today-color{
+  background-color: red;
+}
