@@ -4,10 +4,12 @@ body {
   margin: 0;
   padding: 20px;
 }
-h2{
+
+h2 {
   padding: 15px 0px;
-  text-align:center;
+  text-align: center;
 }
+
 .weather {
   border-radius: 8px;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -29,22 +31,36 @@ h2{
   font-size: 162px;
 }
 
-.today .weather-detail .temp{
-  font-size: 64px;  
+.today .weather-detail .temp {
+  font-size: 64px;
 }
 
 .today .weather-detail {
   padding: 0 47px;
 }
 
-.clouds_color,.rain_color,.clear_color {
+.clouds_color,
+.rain_color,
+.clear_color {
   display: flex;
   padding: 0;
   margin: 0;
   list-style: none;
   width: 25%;
   justify-content: center;
-  border-left:1px solid;
+  border-left: 1px solid;
+}
+
+.clouds_color {
+  background: #B2B2B2;
+}
+
+.rain_color {
+  background: #68D4E0;
+}
+
+.clear_color {
+  background: #FFBF00;
 }
 
 .day {
@@ -66,12 +82,14 @@ h2{
   font-size: 16px;
 }
 
-.week_container{
+.week_container {
   display: flex;
 }
-.date{
+
+.date {
   display: flex;
 }
-.today-color{
+
+.today-color {
   background-color: red;
 }
